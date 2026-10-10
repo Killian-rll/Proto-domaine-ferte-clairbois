@@ -1,0 +1,207 @@
+{
+ "chateau-sainte-suzanne-vue-aerienne": {
+  "w": 1024,
+  "h": 604,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "chambre-froide-salle-des-lions": {
+  "w": 720,
+  "h": 960,
+  "ws": [
+   720
+  ]
+ },
+ "cuisine-professionnelle-salle-des-lions": {
+  "w": 960,
+  "h": 540,
+  "ws": [
+   800,
+   960
+  ]
+ },
+ "plonge-cuisine-professionnelle": {
+  "w": 720,
+  "h": 960,
+  "ws": [
+   720
+  ]
+ },
+ "grottes-de-saulges": {
+  "w": 1024,
+  "h": 576,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "sainte-suzanne-cite-medievale-mayenne": {
+  "w": 1024,
+  "h": 768,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "basilique-evron": {
+  "w": 1024,
+  "h": 575,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "chambre-tristan-lit-fenetre-romane": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "chambre-iseult-salle-de-bain-poutres": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "chambre-iseult-coffre-sculpte": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "salon-medieval-chambres-hotes": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "forge-medievale-clairbois": {
+  "w": 1706,
+  "h": 2560,
+  "ws": [
+   800,
+   1600
+  ]
+ },
+ "chapelle-domaine-clairbois": {
+  "w": 1432,
+  "h": 2560,
+  "ws": [
+   800,
+   1432
+  ]
+ },
+ "chambre-tristan-salle-de-bain": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "promenade-des-moulins-erve": {
+  "w": 1024,
+  "h": 683,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "jublains-forteresse-gallo-romaine": {
+  "w": 1024,
+  "h": 512,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "domaine-ferte-clairbois-vue-aerienne": {
+  "w": 2560,
+  "h": 1441,
+  "ws": [
+   800,
+   1600
+  ]
+ },
+ "sainte-suzanne-depuis-tertre-ganne": {
+  "w": 1024,
+  "h": 575,
+  "ws": [
+   800,
+   1024
+  ]
+ },
+ "ruelle-sainte-suzanne": {
+  "w": 640,
+  "h": 427,
+  "ws": [
+   640
+  ]
+ },
+ "chambre-clairbois-coin-fenetre": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "chambre-clairbois-lit-blason": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "chambre-tristan-chambre-hotes-medievale": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "chambre-iseult-chambre-hotes-medievale": {
+  "w": 1536,
+  "h": 1024,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "donjon-clairbois-pont": {
+  "w": 2560,
+  "h": 1707,
+  "ws": [
+   800,
+   1600
+  ]
+ },
+ "boxes-chevaux-domaine-clairbois": {
+  "w": 1536,
+  "h": 443,
+  "ws": [
+   800,
+   1536
+  ]
+ },
+ "salle-des-lions-location-salle-mariage-mayenne": {
+  "w": 2560,
+  "h": 1707,
+  "ws": [
+   800,
+   1600
+  ]
+ }
+}

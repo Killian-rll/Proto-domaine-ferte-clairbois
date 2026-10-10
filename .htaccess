@@ -1,0 +1,34 @@
+# Redirections 301 des anciennes adresses WordPress vers les nouvelles pages
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^page_id=48$
+RewriteRule ^$ /chambre-iseult.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id=50$
+RewriteRule ^$ /chambre-tristan.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id=76$
+RewriteRule ^$ /domaine.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^page_id=412$
+RewriteRule ^$ /salle-des-lions.html? [L,R=301]
+
+Redirect 301 /chambre-1/ /chambre-iseult.html
+Redirect 301 /chambre-2/ /chambre-tristan.html
+Redirect 301 /chambre-clairbois/ /chambre-clairbois.html
+Redirect 301 /presentation-2/ /domaine.html
+Redirect 301 /salle-des-lions/ /salle-des-lions.html
+Redirect 301 /autour-de-nous/ /autour.html
+Redirect 301 /plan-dacces/ /contact.html
+Redirect 301 /contact/ /contact.html
+
+# Cache long pour les fichiers statiques
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml
+</IfModule>
